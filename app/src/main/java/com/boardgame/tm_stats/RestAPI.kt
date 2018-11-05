@@ -1,7 +1,7 @@
 package com.boardgame.tm_stats
 
-import com.boardgame.tm_stats.model.CorporationListResponse
 import com.boardgame.tm_stats.model.CorporationResponse
+import com.boardgame.tm_stats.utils.BASE_URL
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
@@ -12,10 +12,9 @@ class RestAPI {
 
     init {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://tm-stats.herokuapp.com")
+            .baseUrl(BASE_URL)
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
-
         tmStatsApi = retrofit.create(TmStatsApi::class.java)
     }
 

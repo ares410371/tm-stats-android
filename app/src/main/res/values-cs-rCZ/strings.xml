@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">TM-Stats</string>
+  <string name="action_settings">Nastavení</string>
+  <string name="plans_text_view_hint">Vyber desku</string>
+  <string name="corporation_text_view_hint">Vyber korporaci</string>
+  <string name="plan_text_view">deska</string>
+  <string name="name_text_view_hint">Zadej jméno</string>
+  <string name="points_text_view_hint">Zadej tvoje body</string>
+  <string name="confirm_create">Ulož hru</string>
+  <string name="title_create_game">Vytvor hru</string>
+</resources>

@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">TM-Stats</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">TM-Stats</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- Create Game Activity -->
+  <string name="plans_text_view_hint">Select plan</string>
+  <string name="corporation_text_view_hint">Select corporation</string>
+  <string name="plan_text_view">board</string>
+  <string name="name_text_view_hint">Enter your name</string>
+  <string name="points_text_view_hint">Enter your points</string>
+  <string name="confirm_create">Save game</string>
+  <string name="title_create_game">Create game</string>
+
+
 </resources>
